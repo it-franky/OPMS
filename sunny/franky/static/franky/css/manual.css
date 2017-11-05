@@ -1,0 +1,99 @@
+body{
+
+    background: #fff
+}
+.pictgram {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+    background: rgba(200, 200, 200, 0.1) none no-repeat scroll 0 0 / 100% auto;
+    height: 40px;
+    width: 40px;
+}
+.pictgram-lg {
+    height: 60px;
+    width: 60px;
+}
+.skill {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.pictogram-hive {
+    background-color: transparent;
+    background-image: url("../images/hive.jpg");
+}
+.pictogram-oracle {
+    background-color: transparent;
+    background-image: url("../images/oracle.jpg");
+}
+.pictogram-mysql {
+    background-color: transparent;
+    background-image: url("../images/mysql.jpg");
+}
+.pictogram-html5 {
+    background-color: transparent;
+    background-image: url("../images/html5.png");
+}
+.pictogram-css {
+    background-color: transparent;
+    background-image: url("../images/css.png");
+}
+.pictogram-javascript {
+    background-color: transparent;
+    background-image: url("../images/javascript.png");
+}
+.pictogram-bootstrap {
+    background-color: transparent;
+    background-image: url("../images/bootstrap.png");
+}
+.pictogram-java {
+    background-color: transparent;
+    background-image: url("../images/java.png");
+}
+.pictogram-python {
+    background-color: transparent;
+    background-image: url("../images/python.png");
+}
+.pictogram-django {
+    background-color: transparent;
+    background-image: url("../images/django.png");
+}
+.pictogram-perl {
+    background-color: transparent;
+    background-image: url("../images/perl.png");
+}
+.pictogram-c {
+    background-color: transparent;
+    background-image: url("../images/c.png");
+}
+.pictogram-ccc {
+    background-color: transparent;
+    background-image: url("../images/ccc.png");
+}
+.pictogram-php {
+    background-color: transparent;
+    background-image: url("../images/php.png");
+}
+.pictogram-r {
+    background-color: transparent;
+    background-image: url("../images/r.png");
+}
+.pictogram-linux {
+    background-color: transparent;
+    background-image: url("../images/linux.jpg");
+}
+.pictogram-shell {
+    background-color: #2E2F31;
+    text-align:center;
+    line-height:40px; 
+    color: #FFF;
+    font-size:23px;
+}
+.mtree{
+    background: #eee none repeat scroll 0 0;
+    padding:1.2em;
+    margin:auto;
+    
+}

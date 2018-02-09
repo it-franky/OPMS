@@ -13,7 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url,include
+from django.conf.urls import url, include
 from django.views.generic import TemplateView
 
 import xadmin
@@ -22,7 +22,18 @@ from franky.views import getform
 
 urlpatterns = [
     url(r'xadmin/', include(xadmin.site.urls)),
-    url(r'^$',TemplateView.as_view(template_name="main/index.html"), name="index"),
-    url(r'^form/$',getform,name='go_form'),
-    url(r'^franky/website$', TemplateView.as_view(template_name="franky/website.html"), name="website"),
+    url(r'^$', TemplateView.as_view(template_name="index.html"), name="index"),
+    url(r'luffy/', include('luffy.urls', namespace='luffy')),
+    url(r'zoro/', include('zoro.urls', namespace='zoro')),
+    url(r'nami/', include('nami.urls', namespace='nami')),
+    url(r'sanji/', include('sanji.urls', namespace='sanji')),
+    url(r'robin/', include('robin.urls', namespace='robin')),
+    url(r'franky/', include('franky.urls', namespace='franky')),
+    url(r'^frankymanual/$',
+        TemplateView.as_view(template_name="frankymanual/website.html"),
+        name="website"),
+
+    url(r'^form/$', getform, name='go_form'),
+    url(r'^timetable/$', TemplateView.as_view(template_name="timetable.html"), name="timetable"),
+
 ]

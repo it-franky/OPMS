@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content_header %}
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            阅读
+            <small>
+                读万卷书
+            </small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li>robin</li>
+            <li class="active">reading</li>
+        </ol>
+    </section>
+    <!-- /.Content Header -->
+{% endblock %}
+
+{% block  content_main %}
+    <!-- Main content -->
+    <section class="content">
+        <!-- Main row -->
+
+        <div class="container">
+            <div class="row">
+                <section>
+                    <h3>APP阅读</h3>
+                    <p>片断式，零碎时间阅读。工具：手机</p>
+                    <ul>
+                        <li>邮件阅读：邮件阅读。</li>
+                        <li>有道云笔记：工作总结，学习笔记，网络收藏等等阅读。</li>
+                        <li>微信Robin(IT_Franky)
+                            <ul>
+                                <li>关注资讯，美文，技术，英语，日语等公众号</li>
+                                <li>阅读：Less is More，将阅读完的文章删除，需要进一步阅读的收藏至有道云笔记。</li>
+                                <li>微语录：发表中日英图文。</li>
+                            </ul>
+                        </li>
+                        <li>知乎：网络问答社区，闲逛，围绕着某一感兴趣的话题进行相关的讨论。</li>
+                        <li>微博IT-Franky
+                            <ul>
+                                <li>吐槽工作那点事儿</li>
+                                <li>分享自己的博客文章</li>
+                            </ul>
+                        </li>
+                        <li>微博OP-News
+                            <ul>
+                                <li>关注动漫相关</li>
+                                <li>分享以海贼王为主的动漫相关，分享自己的头条文章</li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <section>
+                    <h3>略读</h3>
+                    <p>专业性不强，较容易理解的电子书，纸质书。工具：iPad | Kindle | 台灯</p>
+                    <ul>
+                        <li>睡前电子书，枕边书阅读</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <section>
+                    <h3>深度阅读</h3>
+                    <p>专业性、技术性较强的书籍，视频。工具：电脑</p>
+                    <ul>
+                        <li>官方文档、电子书、纸质书，有道写读书笔记</li>
+                        <li>看视频也当作是一种阅读。视频、网络课程学习，有道写读书笔记</li>
+                        <li>网络博客文章，针对自己所学，搜索阅读，有道收藏整理</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <!-- /.row (main row) -->
+    </section>
+    <!-- /.content -->
+{% endblock %}
